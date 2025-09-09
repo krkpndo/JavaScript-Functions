@@ -629,5 +629,3 @@ Add: 32 to the product.
 
 // display = memberStatus();
 // console.log(display);
-
-
