@@ -78,7 +78,7 @@ Print both results.
 //     console.log(cylVol);
 // }
 
-// cylinderVolume(3,4,5);
+// cylinderVolume(3.1416,4,5);
 
 /*
 7. Write a function that takes in a number and returns true if the number is even and returns false otherwise.
@@ -92,7 +92,7 @@ Print both results.
 
 // }
 
-// evenNumIdentifier(7);
+// evenNumIdentifier(6);
 
 /*
 8. Write a function that takes in two numbers, returns the first number if smaller than the second number and returns false otherwise.
@@ -106,7 +106,7 @@ Print both results.
 
 // }
 
-// numCompare(1,6);
+// numCompare(6,1);
 
 /*
 9. Write any function that implements string interpolation.
@@ -631,3 +631,26 @@ Add: 32 to the product.
 // console.log(display);
 
 
+/*
+RESULT:
+
+   36/50
+
+   Pasagutan po ng:
+    - 10
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 23
+    - 24
+    - 32
+    - 36
+    - 46
+    - 48
+    - 49
+    - 50
+
+    :)
+*/
