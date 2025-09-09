@@ -299,7 +299,13 @@ Add: 32 to the product.
     (use assignment operators each time). Print the final score.
 */
 
+let score = 0;
 
+pointAdd = score + 10;
+pointSubtract = pointAdd - 3;
+finalScore = pointSubtract *2;
+
+console.log(finalScore);
 
 /*
 25. Write a function that takes a product name and a price, 
