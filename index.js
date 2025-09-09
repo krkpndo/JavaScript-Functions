@@ -116,7 +116,6 @@ Print both results.
 
 
 
-
 /*
 11. Write a function that generates the string "Hello from JavaScript".
 */
@@ -168,6 +167,10 @@ Add: 32 to the product.
 15. Write a function that prints the incremented-by-1 and decremented-by-1 value of its argument.
 */
 
+function increment (){
+
+    
+}
 
 
 /* 
@@ -177,6 +180,8 @@ Add: 32 to the product.
     - the multiplied-by-4 value of its argument
     - the divided-by-2 value of its argument
 */
+
+
 
 /*
 17. Write a function that takes in two numbers and prints true if either of the two numbers is divisible by true and false otherwise.
@@ -266,6 +271,12 @@ Add: 32 to the product.
     Print the final string.
 */
 
+function sentence (){
+    let var1 = "Today", var2 = " is a great", var3 = " day.",
+    let add = var1 += var2;
+
+}
+
 
 /*
 27. Write a function that takes in a person's name and age 
@@ -284,14 +295,27 @@ Add: 32 to the product.
     Print the final value.
 */
 
+// function finVal (){
+//     let counter = 5;
+//     let increase = counter + 7;
+//     let decrease = increase - 2;
+//     let divide = decrease / 5;
+//     return divide;
+// }
 
+// display = finVal();
+// console.log(display);
 
 /*
 29. Write a function that takes two strings, firstWord and secondWord, 
     and prints them combined with a space between using interpolation.
 */
 
+// function wordCombine (firstword, secondword){
+//     console.log(`${firstword}`+` `+`${secondword}`)
+// }
 
+// wordCombine("one", "day")
 
 /*
 30. Start with let text = "Learning". 
@@ -341,7 +365,9 @@ Add: 32 to the product.
     Print the final phrase.
 */
 
-
+function finPhrase (){
+    let phrase = 
+}
 
 /*
 35. Write a function that takes a name and a hobby 
@@ -470,15 +496,14 @@ Add: 32 to the product.
     Print loggedIn.
 */
 
-function loggedIn (){
-    let isLoggedIn = false;
-    let isTrue = loggedIn ||= isLoggedIn;
-    return isTrue;
-}
+// function loggedIn (){
+//     let isLoggedIn = false;
+//     let isTrue = loggedIn ||= isLoggedIn;
+//     return isTrue;
+// }
 
-display = loggedIn();
-console.log(display);
-
+// display = loggedIn();
+// console.log(display);
 
 
 /*
@@ -505,10 +530,10 @@ console.log(display);
     Print: `Hello, ${firstName || "Guest"}` using interpolation.
 */
 
-function greeting1 (){
-    let firstName = "Jane";
-    console.log(`Hello, ${firstName} || "Guest"`)
-}
+// function greeting1 (){
+//     let firstName = "Jane";
+//     console.log(`Hello, ${firstName} || "Guest"`)
+// }
 
 /*
 50. Declare let isMember = true; 
@@ -516,11 +541,11 @@ function greeting1 (){
     Print isMember.
 */
 
-function memberStatus (){
-    let isMember = true;
-    let isFalse = isMember &&= memberStatus;
-    return isFalse;
-}
+// function memberStatus (){
+//     let isMember = true;
+//     let isFalse = isMember &&=;
+//     return isFalse;
+// }
 
-display = memberStatus();
-console.log(display);
+// display = memberStatus();
+// console.log(display);
