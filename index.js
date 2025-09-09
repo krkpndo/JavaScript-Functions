@@ -453,15 +453,15 @@ Add: 32 to the product.
     Print count.
 */
 
-function finCount (){
-    let count = 0;
-    let add = count += 3;
-    let multiply = add *= 2;
-    return multiply;
-}
+// function finCount (){
+//     let count = 0;
+//     let add = count += 3;
+//     let multiply = add *= 2;
+//     return multiply;
+// }
 
-display = finCount();
-console.log(display);
+// display = finCount();
+// console.log(display);
 
 
 /*
@@ -469,6 +469,17 @@ console.log(display);
     Use ||= to set it to true. 
     Print loggedIn.
 */
+
+function loggedIn (){
+    let isLoggedIn = false;
+    let isTrue = loggedIn ||= isLoggedIn;
+    return isTrue;
+}
+
+display = loggedIn();
+console.log(display);
+
+
 
 /*
 46. Declare let role = null; 
@@ -505,3 +516,11 @@ function greeting1 (){
     Print isMember.
 */
 
+function memberStatus (){
+    let isMember = true;
+    let isFalse = isMember &&= memberStatus;
+    return isFalse;
+}
+
+display = memberStatus();
+console.log(display);
