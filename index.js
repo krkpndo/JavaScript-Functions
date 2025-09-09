@@ -86,17 +86,27 @@ Print both results.
 
 // function evenNumIdentifier (num1) {
 //     let remainder = num1 % 2;
-//     let isOddNum = num1 == 0;
+//     let isEvenNum = remainder == 0;
+    
+//     console.log(isEvenNum);
+
 // }
+
+// evenNumIdentifier(7);
 
 /*
 8. Write a function that takes in two numbers, returns the first number if smaller than the second number and returns false otherwise.
 */
 
-// function numberIdentifier (num1,num2) {
-//     let isSmaller = num1 < num2;
-    
+// function numCompare (num1,num2) {
+//     let compare = num1 < num2;
+//     let numOneSmall = compare &&= num1;
+
+//     console.log(numOneSmall);
+
 // }
+
+// numCompare(1,6);
 
 /*
 9. Write any function that implements string interpolation.
@@ -114,9 +124,11 @@ Print both results.
     - return true or false otherwise
 */
 
-// function oddNumIdentifier (){
+function oddNumIdentifier (num){
+    let num1 = num + 1;
+    let num2 = num - 2;
 
-// }
+}
 
 /*
 11. Write a function that generates the string "Hello from JavaScript".
@@ -169,11 +181,15 @@ Add: 32 to the product.
 15. Write a function that prints the incremented-by-1 and decremented-by-1 value of its argument.
 */
 
-function increment (){
+// function simpleCalculator (num1){
+//     let inc = num1+= 1; 
+//     let decr = num1-= 1;
 
-    
-}
+//     console.log(inc);
+//     console.log(decr);
+// }
 
+// simpleCalculator(10);
 
 /* 
 16. Write a function that prints:
@@ -184,15 +200,22 @@ function increment (){
 */
 
 // function simpleCalculator2 (num1){
+//     let inc = num1+= 5; 
+//     let decr = num1-= 3;
+//     let multiply = num1 *= 4;
+//     let divide = num1 /= 2;
 
-
+//     console.log(inc);
+//     console.log(decr);
+//     console.log(multiply);
+//     console.log(divide);
 // }
+
+// simpleCalculator2(10);
 
 /*
 17. Write a function that takes in two numbers and prints true if either of the two numbers is divisible by true and false otherwise.
 */
-
-
 
 
 /*
@@ -211,21 +234,21 @@ function increment (){
     -  the remainder when divided 3
 */
 
-let var1 = 100;
+// let var1 = 100;
 
-inc = var1++;
-decr = var1--;
-sqrd = var1**2
-divide = var1/10;
-multiply = var1 * 2;
-remainder = var1 % 3;
+// inc = var1++;
+// decr = var1--;
+// sqrd = var1**2
+// divide = var1/10;
+// multiply = var1 * 2;
+// remainder = var1 % 3;
 
-console.log(inc);
-console.log(decr);
-console.log(sqrd);
-console.log(divide);
-console.log(multiply);
-console.log(remainder);
+// console.log(inc);
+// console.log(decr);
+// console.log(sqrd);
+// console.log(divide);
+// console.log(multiply);
+// console.log(remainder);
 
 /*
 20. Using these values, 10 and 5. Write a function that prints 105 and 15.
@@ -258,7 +281,10 @@ console.log(remainder);
     Append the text " is awesome!" to it using +=, then print the result.
 */
 
+// var message = "JavaScript";
+// addText = message += " is awesome!";
 
+// console.log(addText);
 
 /*
 23. Write a function that takes a city and a country as arguments 
@@ -292,12 +318,11 @@ console.log(remainder);
     Print the final string.
 */
 
-// function sentence (){
-//     let var1 = "Today", var2 = " is a great", var3 = " day.",
-//     let add = var1 += var2;
+// var sentence = "Today";
+// addText = sentence += " is a great";
+// addText2 = addText += " day.";
 
-// }
-
+// console.log(addText2);
 
 /*
 27. Write a function that takes in a person's name and age 
@@ -344,12 +369,23 @@ console.log(remainder);
     Print the final sentence.
 */
 
+// let text = "Learning";
+// addText = text += " JavaScript";
+// addText2 = addText += " step by step";
+
+// console.log(addText2);
+
+
 /*
 31. Write a function that takes a username and prints:
     "Welcome back, USERNAME!" using template literals.
 */
 
+// function welcomeMessage (username){
+//     console.log(`Welcome back, ${username}!`)
+// }
 
+// welcomeMessage("krstn.nsll")
 
 /*
 32. Start with let balance = 1000. 
@@ -386,9 +422,11 @@ console.log(remainder);
     Print the final phrase.
 */
 
-// function finPhrase (){
-//     let phrase = 
-// }
+// let phrase = "I love";
+// append = phrase += " coding";
+// append2 = append += " in JavaScript";
+
+// console.log(append2);
 
 /*
 35. Write a function that takes a name and a hobby 
@@ -407,10 +445,13 @@ console.log(remainder);
     Print the final result.
 */
 
-// function calc3 (){
-//     let points = 50;
-//     let result = points 
-// }
+// let points = 50;
+
+// add = points += 20;
+// subtract = add -= 10;
+// multiply = subtract *= 3;
+
+// console.log(multiply);
 
 /*
 37. Write a function that takes a city and a temperature, 
@@ -429,6 +470,11 @@ console.log(remainder);
     Print the final string.
 */
 
+// let sentence = "This";
+// append = sentence += " is";
+// append2 = append += " JavaScript practice";
+
+// console.log(append2);
 
 
 /*
@@ -494,6 +540,11 @@ console.log(remainder);
     Print status.
 */
 
+// let stat = "";
+// let setActive = stat ||= "active";
+
+// console.log(setActive);
+
 /*
 44. Declare let count = 0; 
     Use += to add 3, then *= 2. 
@@ -517,14 +568,10 @@ console.log(remainder);
     Print loggedIn.
 */
 
-// function loggedIn (){
-//     let isLoggedIn = false;
-//     let isTrue = loggedIn ||= isLoggedIn;
-//     return isTrue;
-// }
+// let LoggedIn = false;
+// let isTrue = LoggedIn ||= true;
 
-// display = loggedIn();
-// console.log(display);
+// console.log(isTrue);
 
 
 /*
@@ -538,13 +585,25 @@ console.log(remainder);
     Print the result of a || b.
 */
 
+// let a = true, b = false; 
+// result = a || b;
+
+// console.log(result);
+
 /*
 48. Declare let num = 20; 
     Use /= 5, then **= 2. 
     Print num.
 
-
 */
+
+// let num = 20;
+// result1 = num /= 5;
+// result2 = num **= 2;
+
+// console.log(result1);
+// console.log(result2);
+
 
 /*
 49. Declare let firstName = "Jane"; 
@@ -553,7 +612,7 @@ console.log(remainder);
 
 // function greeting1 (){
 //     let firstName = "Jane";
-//     console.log(`Hello, ${firstName} || "Guest"`)
+//     console.log(`Hello,` ${firstName} `|| "Guest"`)
 // }
 
 /*
@@ -570,3 +629,5 @@ console.log(remainder);
 
 // display = memberStatus();
 // console.log(display);
+
+
