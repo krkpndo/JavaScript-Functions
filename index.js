@@ -114,7 +114,9 @@ Print both results.
     - return true or false otherwise
 */
 
+// function oddNumIdentifier (){
 
+// }
 
 /*
 11. Write a function that generates the string "Hello from JavaScript".
@@ -181,11 +183,16 @@ function increment (){
     - the divided-by-2 value of its argument
 */
 
+// function simpleCalculator2 (num1){
 
+
+// }
 
 /*
 17. Write a function that takes in two numbers and prints true if either of the two numbers is divisible by true and false otherwise.
 */
+
+
 
 
 /*
@@ -204,7 +211,21 @@ function increment (){
     -  the remainder when divided 3
 */
 
+let var1 = 100;
 
+inc = var1++;
+decr = var1--;
+sqrd = var1**2
+divide = var1/10;
+multiply = var1 * 2;
+remainder = var1 % 3;
+
+console.log(inc);
+console.log(decr);
+console.log(sqrd);
+console.log(divide);
+console.log(multiply);
+console.log(remainder);
 
 /*
 20. Using these values, 10 and 5. Write a function that prints 105 and 15.
@@ -271,11 +292,11 @@ function increment (){
     Print the final string.
 */
 
-function sentence (){
-    let var1 = "Today", var2 = " is a great", var3 = " day.",
-    let add = var1 += var2;
+// function sentence (){
+//     let var1 = "Today", var2 = " is a great", var3 = " day.",
+//     let add = var1 += var2;
 
-}
+// }
 
 
 /*
@@ -365,9 +386,9 @@ function sentence (){
     Print the final phrase.
 */
 
-function finPhrase (){
-    let phrase = 
-}
+// function finPhrase (){
+//     let phrase = 
+// }
 
 /*
 35. Write a function that takes a name and a hobby 
