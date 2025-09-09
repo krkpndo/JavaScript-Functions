@@ -2,13 +2,44 @@
 1. Write a program that when invoked, returns the string "Hello, World"
 */
 
+// function greeting () {
+//     let print = `Hello, World`;
+//     return print;
+// }
+
+// display = greeting();
+// console.log(display);
+
 /*
 2. Write a program that takes two numbers, and prints the sum, difference, product, quotient, and remainder
 */
 
+// function simpleCalculator (num1, num2) {
+//     let sum = num1 + num2;
+//     let difference = num1 - num2;
+//     let product = num1 * num2;
+//     let quotient = num1 / num2;
+//     let remainder = num1 % num2;
+
+//     console.log(sum);
+//     console.log(difference);
+//     console.log(product);
+//     console.log(quotient);
+//     console.log(remainder);
+// }
+
+// simpleCalculator(12,5);
+
 /*
 3. Write a program that takes in three parameters and prints the string "Hello, I am {first_parameter}. From {second_parameter}. I am pursuing a degree in {third_parameter}"
 */
+
+// function basicInfo (name,address,program){
+//     let print = (`Hello, I am ${name}. From ${address}. I am pursuing a degree in ${program}.`);
+//     console.log(print);
+// }
+
+// basicInfo("Kristine Anselle Calaluan", "Talumpok Kanluran, Batangas City", "Computer Engineering");
 
 /*
 4. Write a function that takes an 'age' parameter. Write an expression that checks: 
@@ -17,25 +48,65 @@
 Print both results.
 */
 
+// function ageIdentifier (age) {
+//     let ismidAge = age >= 18 && age < 60;
+//     let notBelong = age < 18 || age > 60;
+
+//     console.log(ismidAge);
+//     console.log(notBelong);
+// }
+
+// ageIdentifier(22);
+
 /*
 5. Write a parameterized function that calculates the hypotenuse of a right triangle.
 */
+
+// function hypotenuseCalc (opp, adj) {
+//     let hypotenuse = ((opp **2) + (adj **2))**0.5;
+//     console.log(hypotenuse);
+// }
+
+// hypotenuseCalc(10, 10);
 
 /*
 6. Write a parameterized function that calculates the volume of a cylinder.
 */
 
+// function cylinderVolume (pi,r,h) {
+//     let cylVol = (pi)*(r**2)*(h);
+//     console.log(cylVol);
+// }
+
+// cylinderVolume(3,4,5);
+
 /*
 7. Write a function that takes in a number and returns true if the number is even and returns false otherwise.
 */
+
+// function evenNumIdentifier (num1) {
+//     let remainder = num1 % 2;
+//     let isOddNum = num1 == 0;
+// }
 
 /*
 8. Write a function that takes in two numbers, returns the first number if smaller than the second number and returns false otherwise.
 */
 
+// function numberIdentifier (num1,num2) {
+//     let isSmaller = num1 < num2;
+    
+// }
+
 /*
 9. Write any function that implements string interpolation.
 */
+
+// function studentInfo (name, age, student_num) {
+//     console.log (`I am ${name}. I am ${age} years old. My SR-Code is ${student_num}.`)
+// }
+
+// studentInfo("Kristine Anselle Calaluan", "22", "21-02623");
 
 /*
 10. Write a  function that takes in a number. Check if:
@@ -44,25 +115,60 @@ Print both results.
 */
 
 
+
+
 /*
 11. Write a function that generates the string "Hello from JavaScript".
 */
+
+// function greeting () {
+//     let print = `Hello,  from JavaScript`;
+//     return print;
+// }
+
+// display = greeting();
+// console.log(display);
 
 /*
 12. Look for the specifications of your device, choose three specifications. Using these specifications, write a parameterized function that prints something descriptive about your device.
 */
 
-/*
-13. Write a function that converts a given temperature value in Celsius into Fahrenheit. *Pwede i-google formula ng conversion. Google lang ahhh :)
-*/
+// function realme6i (spec1, spec2, spec3) {
+//     console.log (`The realme 6i has ${spec1}, ${spec2} and ${spec3}.`)
+// }
+
+// realme6i("5000mAh Massive Battery","18W Quick Charge", "48MP AI Quad Camera");
 
 /*
-14. Write a function that calculates the volume of a square pyramid. *Pwede i-google formula. Google lang ahhh :)
+13. Write a function that converts a given temperature value in Celsius into Fahrenheit. *Pwede i-google formula ng conversion. Google lang ahhh :) (AYAW Q hehe)
+
+Multiply: the Celsius temperature by 9/5 (or 1.8).
+Add: 32 to the product.
 */
+
+// function celsiusToF (celsius) {
+//     let calcCtoF = (celsius * 1.8) + 32;
+//     console.log(`${celsius} degrees celsius is ${calcCtoF} degrees in farenheit`);
+// }
+
+// celsiusToF(20);
+
+/*
+14. Write a function that calculates the volume of a square pyramid. *Pwede i-google formula. Google lang ahhh :) (AYAW Q ul8)
+*/
+
+// function volSqPyramid (a,h) {
+//     let SqPyramidVol = (a**2)*(h/3);
+//     console.log(SqPyramidVol);
+// }
+
+// volSqPyramid(12,10);
 
 /*
 15. Write a function that prints the incremented-by-1 and decremented-by-1 value of its argument.
 */
+
+
 
 /* 
 16. Write a function that prints:
@@ -76,9 +182,12 @@ Print both results.
 17. Write a function that takes in two numbers and prints true if either of the two numbers is divisible by true and false otherwise.
 */
 
+
 /*
 18. Write a function that takes in two numbers and prints true if both numbers is divisible by true and false otherwise.
 */
+
+
 
 /*
 19. Declare a variable and assign the value 100. Print:
@@ -90,9 +199,21 @@ Print both results.
     -  the remainder when divided 3
 */
 
+
+
 /*
 20. Using these values, 10 and 5. Write a function that prints 105 and 15.
 */
+
+// function calc (num1,num2) {
+//     let cube = (num1**2)+num2;
+//     let sum = (num1 + num2);
+
+//     console.log(cube);
+//     console.log(sum);
+// }
+
+// calc(10,5);
 
 /*
 21. Write a function that takes a first name and a last name, 
@@ -100,15 +221,25 @@ Print both results.
     (Use string interpolation.)
 */
 
+// function fullName (firstname,lastname) {
+//     console.log(`Full Name: ${firstname} ${lastname}`)
+// }
+
+// fullName("John", "Doe");
+
 /*
 22. Declare a variable message with the value "JavaScript". 
     Append the text " is awesome!" to it using +=, then print the result.
 */
 
+
+
 /*
 23. Write a function that takes a city and a country as arguments 
     and prints: "I live in CITY, COUNTRY".
 */
+
+
 
 /*
 24. Start with let score = 0. 
@@ -116,10 +247,18 @@ Print both results.
     (use assignment operators each time). Print the final score.
 */
 
+
+
 /*
 25. Write a function that takes a product name and a price, 
     and prints: "The product PRODUCT costs PRICE pesos".
 */
+
+// function productDetails (product_name, price) {
+//     console.log(`The product ${product_name} costs ${price} pesos`);
+// }
+
+// productDetails("Garnier Sunscreen","299");
 
 /*
 26. Declare a variable sentence = "Today". 
@@ -127,10 +266,17 @@ Print both results.
     Print the final string.
 */
 
+
 /*
 27. Write a function that takes in a person's name and age 
     and prints: "NAME is AGE years old this year".
 */
+
+// function personalInfo (name1, age1) {
+//     console.log(`${name1} is ${age1} years old this year`);
+// }
+
+// personalInfo("John","30");
 
 /*
 28. Start with let counter = 5. 
@@ -138,10 +284,14 @@ Print both results.
     Print the final value.
 */
 
+
+
 /*
 29. Write a function that takes two strings, firstWord and secondWord, 
     and prints them combined with a space between using interpolation.
 */
+
+
 
 /*
 30. Start with let text = "Learning". 
@@ -154,6 +304,8 @@ Print both results.
     "Welcome back, USERNAME!" using template literals.
 */
 
+
+
 /*
 32. Start with let balance = 1000. 
     Subtract 250 (expense), then add 500 (deposit), 
@@ -161,10 +313,27 @@ Print both results.
     Print the final balance.
 */
 
+// function finalBalance () {
+//     let balance = 1000, expense = 250, deposit = 500, interest = 1.05;
+//     let subtractExpense = balance - expense;
+//     let addDeposit = subtractExpense + deposit;
+//     let finalCompute = addDeposit * interest;
+//     return finalCompute;
+// }
+
+// display = finalBalance;
+// console.log(display);
+
 /*
 33. Write a function that takes a subject and a grade, 
     and prints: "You got GRADE in SUBJECT".
 */
+
+// function gradeRecord (subject, grade) {
+//     console.log(`You got ${grade} in ${subject}`);
+// }
+
+// gradeRecord("Differential Calculus","1.5");
 
 /*
 34. Declare let phrase = "I love". 
@@ -172,10 +341,18 @@ Print both results.
     Print the final phrase.
 */
 
+
+
 /*
 35. Write a function that takes a name and a hobby 
     and prints: "NAME enjoys HOBBY every weekend".
 */
+
+// function nameHobby (name2, hobby) {
+//     console.log(`${name2} enjoys ${hobby} every weekend`);
+// }
+
+// nameHobby("Anselle","Volleyball");
 
 /*
 36. Start with let points = 50. 
@@ -183,10 +360,21 @@ Print both results.
     Print the final result.
 */
 
+// function calc3 (){
+//     let points = 50;
+//     let result = points 
+// }
+
 /*
 37. Write a function that takes a city and a temperature, 
     and prints: "It is TEMPERATURE°C in CITY today."
 */
+
+// function weatherDetails (temperature, city) {
+//     console.log(`It is ${temperature}°C in ${city} today.`);
+// }
+
+// weatherDetails("33","Batangas City");
 
 /*
 38. Declare let sentence = "This". 
@@ -194,10 +382,19 @@ Print both results.
     Print the final string.
 */
 
+
+
 /*
 39. Write a function that takes two numbers, num1 and num2, 
     and prints: "The sum of NUM1 and NUM2 is RESULT".
 */
+
+// function sumCalc (Num1, Num2) {
+//     let result = Num1 + Num2;
+//     console.log(`The sum of ${Num1} and ${Num2} is ${result}.`);
+// }
+
+// sumCalc(15,10);
 
 /*
 40. Start with let health = 100. 
@@ -205,15 +402,44 @@ Print both results.
     Print the final health value.
 */
 
+// function finalHealth () {
+//     let health = 100, damage = 30, healing = 10;
+//     let withDamage = health - damage;
+//     let withHealing = withDamage + healing;
+//     let finHealth = withHealing / 2;
+//     return finHealth;
+// }
+
+// display = finalHealth();
+// console.log(display);
+
 /*
 41. Declare let a = 5, b = 10. 
     Print the result of a > b.
 */
 
+// function compare () {
+//     let a = 5, b = 10;
+//     let result = a > b;
+//     return result;
+// }
+
+// display = compare ();
+// console.log(display);
+
 /*
 42. Declare let x = 8, y = 12. 
     Print the result of x < y && y > 10.
 */
+
+// function emeLang () {
+//     let x = 8, y = 12;
+//     let result = x < y && y > 10;
+//     return result;
+// }
+
+// display = emeLang();
+// console.log(display);
 
 /*
 43. Start with let status = ""; 
@@ -226,6 +452,17 @@ Print both results.
     Use += to add 3, then *= 2. 
     Print count.
 */
+
+function finCount (){
+    let count = 0;
+    let add = count += 3;
+    let multiply = add *= 2;
+    return multiply;
+}
+
+display = finCount();
+console.log(display);
+
 
 /*
 45. Declare let loggedIn = false; 
@@ -248,6 +485,8 @@ Print both results.
 48. Declare let num = 20; 
     Use /= 5, then **= 2. 
     Print num.
+
+
 */
 
 /*
@@ -255,8 +494,14 @@ Print both results.
     Print: `Hello, ${firstName || "Guest"}` using interpolation.
 */
 
+function greeting1 (){
+    let firstName = "Jane";
+    console.log(`Hello, ${firstName} || "Guest"`)
+}
+
 /*
 50. Declare let isMember = true; 
     Use &&= to set isMember to false. 
     Print isMember.
 */
+
