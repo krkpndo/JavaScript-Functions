@@ -132,7 +132,7 @@ Print both results.
 //     return compare;
 // }
 
-// display = oddNumIdentifier(3);
+// display = oddNumIdentifier(2);
 // console.log(display);
 
 /*
@@ -251,12 +251,14 @@ and false otherwise.
 // result3 = var1 ** 2;
 // result4 = var1 / 10;
 // result5 = var1 * 2;
+// result6 = var1 % 3;
 
 // console.log(result1);
 // console.log(result2);
 // console.log(result3);
 // console.log(result4);
 // console.log(result5);
+// console.log(result6);
 
 /*
 20. Using these values, 10 and 5. Write a function that prints 105 and 15.
@@ -633,6 +635,7 @@ and false otherwise.
 
 // console.log(num)
 
+
 /*
 49. Declare let firstName = "Jane"; 
     Print: `Hello, ${firstName || "Guest"}` using interpolation.
@@ -656,6 +659,55 @@ and false otherwise.
 
 // let display = memberStatus();
 // console.log(display);
+
+/*
+let x = "Kirk";
+let x;
+
+console.log(x);
+
+result: Will cause an error because let cannot be redeclared
+*/
+
+
+/*
+const x = 1;
+x = 5;
+
+console.log(x);
+result: Will cause an error because const cannot be reassigned
+*/
+
+/*
+let x = 5;
+
+{
+    let x = 1;
+    console.log(x); // 1 (block scope) 
+}
+
+console.log(x); // 5 (global scope)
+*/
+
+/*
+var x = 5;
+
+{
+    var x = 1;
+    console.log(x); // 1
+}
+
+console.log(x); // 1
+
+reason: Because var has no scope
+*/
+
+// console.log("Kirk" + 10); // Kirk10
+
+let bool = false;
+let result = bool &&= "Kirk";
+console.log(result); //false
+
 
 
 /*
