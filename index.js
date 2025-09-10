@@ -119,16 +119,21 @@ Print both results.
 // studentInfo("Kristine Anselle Calaluan", "22", "21-02623");
 
 /*
-10. Write a  function that takes in a number. Check if:
+10. Write a function that takes in a number. Check if:
     - number is added or subtracted by 1, equates to an odd number
     - return true or false otherwise
 */
 
-function oddNumIdentifier (num){
-    let num1 = num + 1;
-    let num2 = num - 2;
+// function oddNumIdentifier(num) {
+//     let incrementedNum = num + 1;  // add 1
+//     let decrementedNum = num - 1;  // subtract 1
 
-}
+//     let compare = (incrementedNum % 2 !== 0) || (decrementedNum % 2 !== 0);
+//     return compare;
+// }
+
+// display = oddNumIdentifier(3);
+// console.log(display);
 
 /*
 11. Write a function that generates the string "Hello from JavaScript".
@@ -181,15 +186,12 @@ Add: 32 to the product.
 15. Write a function that prints the incremented-by-1 and decremented-by-1 value of its argument.
 */
 
-// function simpleCalculator (num1){
-//     let inc = num1+= 1; 
-//     let decr = num1-= 1;
-
-//     console.log(inc);
-//     console.log(decr);
+// function incDecrement(num) {
+//     console.log("Incremented value: " + (num ++));
+//     console.log("Decremented value: " + (num --));
 // }
 
-// simpleCalculator(10);
+// incDecrement(10);
 
 /* 
 16. Write a function that prints:
@@ -199,29 +201,37 @@ Add: 32 to the product.
     - the divided-by-2 value of its argument
 */
 
-// function simpleCalculator2 (num1){
-//     let inc = num1+= 5; 
-//     let decr = num1-= 3;
-//     let multiply = num1 *= 4;
-//     let divide = num1 /= 2;
+// function simpleCalculator (num){
 
-//     console.log(inc);
-//     console.log(decr);
-//     console.log(multiply);
-//     console.log(divide);
+//     console.log(num + 5);
+//     console.log(num - 3);
+//     console.log(num * 4);
+//     console.log(num / 2);
 // }
 
-// simpleCalculator2(10);
+// simpleCalculator(10);
 
 /*
-17. Write a function that takes in two numbers and prints true if either of the two numbers is divisible by true and false otherwise.
+17. Write a function that takes in two numbers 
+and prints true if either of the two numbers is divisible by 2 
+and false otherwise.
 */
 
+// function twoNumDivisibleBy2(num1, num2) {
+//     console.log(num1 % 2 == 0 || num2 % 2 == 0);
+// }
+
+// twoNumDivisibleBy2(4, 4);
 
 /*
-18. Write a function that takes in two numbers and prints true if both numbers is divisible by true and false otherwise.
+18. Write a function that takes in two numbers and prints true if both numbers is divisible by 2 and false otherwise.
 */
 
+// function twoNumDivisibleBy2 (num1, num2) {
+//     console.log(num1 % 2 == 0 && num2 % 2 == 0);
+// }
+
+// twoNumDivisibleBy2(4, 4);
 
 
 /*
@@ -236,27 +246,25 @@ Add: 32 to the product.
 
 // let var1 = 100;
 
-// inc = var1++;
-// decr = var1--;
-// sqrd = var1**2
-// divide = var1/10;
-// multiply = var1 * 2;
-// remainder = var1 % 3;
+// result1 = var1 + 50;
+// result2 = var1 - 50;
+// result3 = var1 ** 2;
+// result4 = var1 / 10;
+// result5 = var1 * 2;
 
-// console.log(inc);
-// console.log(decr);
-// console.log(sqrd);
-// console.log(divide);
-// console.log(multiply);
-// console.log(remainder);
+// console.log(result1);
+// console.log(result2);
+// console.log(result3);
+// console.log(result4);
+// console.log(result5);
 
 /*
 20. Using these values, 10 and 5. Write a function that prints 105 and 15.
 */
 
 // function calc (num1,num2) {
-//     let cube = (num1**2)+num2;
-//     let sum = (num1 + num2);
+//     let cube = `${num1}` + `${num2}`
+//     let sum = num1 + num2;
 
 //     console.log(cube);
 //     console.log(sum);
@@ -291,7 +299,11 @@ Add: 32 to the product.
     and prints: "I live in CITY, COUNTRY".
 */
 
+// function liveIn(city, country) {
+//     console.log(`I live in ${city}, ${country}`);
+// }
 
+// liveIn('Batangas City', 'Philipines')
 
 /*
 24. Start with let score = 0. 
@@ -299,7 +311,13 @@ Add: 32 to the product.
     (use assignment operators each time). Print the final score.
 */
 
+// let score = 0;
 
+// score += 10;
+// score -= 3;
+// score *= 2;
+
+// console.log("Final Score: " + score);
 
 /*
 25. Write a function that takes a product name and a price, 
@@ -343,10 +361,10 @@ Add: 32 to the product.
 
 // function finVal (){
 //     let counter = 5;
-//     let increase = counter + 7;
-//     let decrease = increase - 2;
-//     let divide = decrease / 5;
-//     return divide;
+//     counter += 7;
+//     counter -= 2;
+//     counter /= 5;
+//     return counter;
 // }
 
 // display = finVal();
@@ -359,6 +377,7 @@ Add: 32 to the product.
 
 // function wordCombine (firstword, secondword){
 //     console.log(`${firstword}`+` `+`${secondword}`)
+//     console.log(`${firstword} ${secondword}`);
 // }
 
 // wordCombine("one", "day")
@@ -373,7 +392,11 @@ Add: 32 to the product.
 // addText = text += " JavaScript";
 // addText2 = addText += " step by step";
 
-// console.log(addText2);
+// let text = "Learning";
+// text += " JavaScript";
+// text += " step by step.";
+
+// console.log(text);
 
 
 /*
@@ -394,16 +417,15 @@ Add: 32 to the product.
     Print the final balance.
 */
 
-// function finalBalance () {
-//     let balance = 1000, expense = 250, deposit = 500, interest = 1.05;
-//     let subtractExpense = balance - expense;
-//     let addDeposit = subtractExpense + deposit;
-//     let finalCompute = addDeposit * interest;
-//     return finalCompute;
-// }
 
-// display = finalBalance;
-// console.log(display);
+// let balance = 1000;
+
+// balance -= 250;
+// balance += 500;
+// balance *= 1.05;
+
+// console.log("Final Balance: " + balance);
+
 
 /*
 33. Write a function that takes a subject and a grade, 
@@ -422,11 +444,11 @@ Add: 32 to the product.
     Print the final phrase.
 */
 
-// let phrase = "I love";
-// append = phrase += " coding";
-// append2 = append += " in JavaScript";
+// let phrase = "I don't love";
+// phrase += " coding";
+// phrase += " in JavaScript";
 
-// console.log(append2);
+// console.log(phrase);
 
 /*
 35. Write a function that takes a name and a hobby 
@@ -447,11 +469,12 @@ Add: 32 to the product.
 
 // let points = 50;
 
-// add = points += 20;
-// subtract = add -= 10;
-// multiply = subtract *= 3;
+// points += 20;
+// points -= 10;
+// points /= 2;
+// points *= 3;
 
-// console.log(multiply);
+// console.log("Final Score: " + points);
 
 /*
 37. Write a function that takes a city and a temperature, 
@@ -471,10 +494,10 @@ Add: 32 to the product.
 */
 
 // let sentence = "This";
-// append = sentence += " is";
-// append2 = append += " JavaScript practice";
+// sentence += " is";
+// sentence += " JavaScript practice";
 
-// console.log(append2);
+// console.log(sentence);
 
 
 /*
@@ -568,6 +591,7 @@ Add: 32 to the product.
     Print loggedIn.
 */
 
+// // If the first statement is false, returns the second statement
 // let LoggedIn = false;
 // let isTrue = LoggedIn ||= true;
 
@@ -579,6 +603,11 @@ Add: 32 to the product.
     Use ??= to set it to "guest". 
     Print role.
 */
+
+// let role = null;
+// role ??= 'guest'
+
+// console.log(role)
 
 /*
 47. Declare let a = true, b = false; 
@@ -598,22 +627,20 @@ Add: 32 to the product.
 */
 
 // let num = 20;
-// result1 = num /= 5;
-// result2 = num **= 2;
 
-// console.log(result1);
-// console.log(result2);
+// num/=5;
+// num**=2;
 
+// console.log(num)
 
 /*
 49. Declare let firstName = "Jane"; 
     Print: `Hello, ${firstName || "Guest"}` using interpolation.
 */
 
-// function greeting1 (){
-//     let firstName = "Jane";
-//     console.log(`Hello,` ${firstName} `|| "Guest"`)
-// }
+// let firstName = "Jane";
+
+// console.log(`Hello, ${firstName || "Guest"}`);
 
 /*
 50. Declare let isMember = true; 
@@ -621,13 +648,13 @@ Add: 32 to the product.
     Print isMember.
 */
 
-// function memberStatus (){
+// function memberStatus() {
 //     let isMember = true;
-//     let isFalse = isMember &&=;
-//     return isFalse;
+//     isMember &&= false;
+//     return isMember;
 // }
 
-// display = memberStatus();
+// let display = memberStatus();
 // console.log(display);
 
 
@@ -636,7 +663,7 @@ RESULT:
 
    36/50
 
-   Pasagutan po ng:
+   Pasagutan po ng: AYAW Q PO;
     - 10
     - 15
     - 16
